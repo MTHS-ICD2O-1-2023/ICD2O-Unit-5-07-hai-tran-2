@@ -9,13 +9,13 @@
 
 function calculateSumOfNNumbers() {
   // input
-  let numberAddingUpTo = parseFloat(document.getElementById("number-adding-to").value)
-  let sumOfNUNumber = 0
+  let numberAddingTo = parseFloat(document.getElementById("number-adding-to").value)
+  let sumOfNNumber = 0
 
   // process
-  for (let counter = 0; counter <= numberAddingUpTo; counter++) {
+  for (let counter = 0; counter <= numberAddingTo; counter++) {
     // output
-    sumOfNUNumber = sumOfNUNumber + counter
-    document.getElementById("result").innerHTML = "The sum of two number is " + sumOfNUNumber
+    sumOfNNumber = sumOfNNumber + counter
+    document.getElementById("result").innerHTML = "The sum of two number is " + sumOfNNumber
   }
 }
