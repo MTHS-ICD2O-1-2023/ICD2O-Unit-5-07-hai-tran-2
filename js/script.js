@@ -16,6 +16,6 @@ function calculateSumOfNNumbers() {
   for (let counter = 0; counter <= numberAddingTo; counter++) {
     // output
     sumOfNNumber = sumOfNNumber + counter
-    document.getElementById("result").innerHTML = "The sum of two number is " + sumOfNNumber
+    document.getElementById("result").innerHTML = "The sum of " + numberAddingTo + " natural number is : " + sumOfNNumber
   }
 }
